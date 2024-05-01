@@ -27,6 +27,9 @@
 		AB02782B2BE26E89003B20CF /* ReplaySubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ReplaySubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AB02782C2BE28B06003B20CF /* AsyncSubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AsyncSubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AB02782D2BE28D2E003B20CF /* Relay.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Relay.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AB0278302BE28F5D003B20CF /* just.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = just.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AB10D49C2BE2900300A6FCCD /* of.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = of.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AB10D49D2BE2907500A6FCCD /* from.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = from.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AB1E43502BE252290005C39D /* RxSwift-Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RxSwift-Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB1E43532BE252290005C39D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB1E43552BE252290005C39D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,11 +84,30 @@
 			path = Subjects;
 			sourceTree = "<group>";
 		};
+		AB02782E2BE28F43003B20CF /* Operators */ = {
+			isa = PBXGroup;
+			children = (
+				AB02782F2BE28F4B003B20CF /* Create Operators */,
+			);
+			path = Operators;
+			sourceTree = "<group>";
+		};
+		AB02782F2BE28F4B003B20CF /* Create Operators */ = {
+			isa = PBXGroup;
+			children = (
+				AB0278302BE28F5D003B20CF /* just.playground */,
+				AB10D49C2BE2900300A6FCCD /* of.playground */,
+				AB10D49D2BE2907500A6FCCD /* from.playground */,
+			);
+			path = "Create Operators";
+			sourceTree = "<group>";
+		};
 		AB1E43472BE252290005C39D = {
 			isa = PBXGroup;
 			children = (
 				AB0278242BE25363003B20CF /* Concepts */,
 				AB0278282BE266B8003B20CF /* Subjects */,
+				AB02782E2BE28F43003B20CF /* Operators */,
 				AB1E43522BE252290005C39D /* RxSwift-Practice */,
 				AB1E43512BE252290005C39D /* Products */,
 				5996EE8056B4C2B4D677A84B /* Pods */,
