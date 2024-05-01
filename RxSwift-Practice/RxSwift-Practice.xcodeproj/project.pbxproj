@@ -34,6 +34,7 @@
 		AB10D49F2BE2918400A6FCCD /* generate.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = generate.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AB10D4A02BE2939100A6FCCD /* repeatElement.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = repeatElement.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AB10D4A22BE2953300A6FCCD /* deferred.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = deferred.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AB10D4A32BE2968D00A6FCCD /* create.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = create.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AB1E43502BE252290005C39D /* RxSwift-Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RxSwift-Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB1E43532BE252290005C39D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB1E43552BE252290005C39D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +107,7 @@
 				AB10D49F2BE2918400A6FCCD /* generate.playground */,
 				AB10D4A02BE2939100A6FCCD /* repeatElement.playground */,
 				AB10D4A22BE2953300A6FCCD /* deferred.playground */,
+				AB10D4A32BE2968D00A6FCCD /* create.playground */,
 			);
 			path = "Create Operators";
 			sourceTree = "<group>";
