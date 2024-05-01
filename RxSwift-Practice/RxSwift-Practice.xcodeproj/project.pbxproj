@@ -21,6 +21,7 @@
 		A49AC7C93E42FA2CB884B672 /* Pods-RxSwift-Practice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift-Practice.release.xcconfig"; path = "Target Support Files/Pods-RxSwift-Practice/Pods-RxSwift-Practice.release.xcconfig"; sourceTree = "<group>"; };
 		AB0278252BE25377003B20CF /* Observable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Observable.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AB0278262BE258F1003B20CF /* Infallible.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Infallible.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AB0278272BE26013003B20CF /* Disposables.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Disposables.playground; path = ../../Disposables.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AB1E43502BE252290005C39D /* RxSwift-Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RxSwift-Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB1E43532BE252290005C39D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB1E43552BE252290005C39D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +59,7 @@
 			children = (
 				AB0278252BE25377003B20CF /* Observable.playground */,
 				AB0278262BE258F1003B20CF /* Infallible.playground */,
+				AB0278272BE26013003B20CF /* Disposables.playground */,
 			);
 			path = Concepts;
 			sourceTree = "<group>";
