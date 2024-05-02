@@ -78,6 +78,7 @@
 		ABE630C02BE3E27F0000B755 /* sample.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = sample.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		ABE630C12BE3E2890000B755 /* switchLatest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = switchLatest.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		ABE630C22BE3E2910000B755 /* reduce.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = reduce.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		ABE630C42BE3F6E70000B755 /* amb.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = amb.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		ABED50672BE2A0F2000135F0 /* elementAt.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = elementAt.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BBF3CD6F19F2085602BA5FBA /* Pods_RxSwift_Practice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwift_Practice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -132,6 +133,7 @@
 				AB10D4A72BE299F300A6FCCD /* Filtering Operators */,
 				ABE630AD2BE3CD7B0000B755 /* Transforming Operators */,
 				ABE630B92BE3DED40000B755 /* Combining Operators */,
+				ABE630C32BE3F6D20000B755 /* Conditional Operators */,
 			);
 			path = Operators;
 			sourceTree = "<group>";
@@ -241,6 +243,14 @@
 				ABE630C22BE3E2910000B755 /* reduce.playground */,
 			);
 			path = "Combining Operators";
+			sourceTree = "<group>";
+		};
+		ABE630C32BE3F6D20000B755 /* Conditional Operators */ = {
+			isa = PBXGroup;
+			children = (
+				ABE630C42BE3F6E70000B755 /* amb.playground */,
+			);
+			path = "Conditional Operators";
 			sourceTree = "<group>";
 		};
 		D268DA304DA9EFDA3CB6EFF2 /* Frameworks */ = {
