@@ -60,6 +60,15 @@
 		AB5D7F4A2BE2AECA00AE8B51 /* distinctUntilChanged.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = distinctUntilChanged.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AB5D7F6D2BE370C400AE8B51 /* throttle.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = throttle.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AB5D7F6E2BE370D500AE8B51 /* debounce.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = debounce.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		ABE630AE2BE3CDBF0000B755 /* toArray.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = toArray.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		ABE630AF2BE3CE8B0000B755 /* map.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = map.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		ABE630B02BE3CF160000B755 /* compactMap.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = compactMap.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		ABE630B12BE3CFF90000B755 /* flatMap.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = flatMap.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		ABE630B42BE3D9750000B755 /* concatMap.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = concatMap.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		ABE630B52BE3DA0E0000B755 /* scan.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = scan.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		ABE630B62BE3DAB50000B755 /* buffer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = buffer.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		ABE630B72BE3DBD30000B755 /* window.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = window.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		ABE630B82BE3DD700000B755 /* groupBy.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = groupBy.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		ABED50672BE2A0F2000135F0 /* elementAt.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = elementAt.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BBF3CD6F19F2085602BA5FBA /* Pods_RxSwift_Practice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwift_Practice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -112,6 +121,7 @@
 			children = (
 				AB02782F2BE28F4B003B20CF /* Create Operators */,
 				AB10D4A72BE299F300A6FCCD /* Filtering Operators */,
+				ABE630AD2BE3CD7B0000B755 /* Transforming Operators */,
 			);
 			path = Operators;
 			sourceTree = "<group>";
@@ -189,6 +199,22 @@
 				AB1E43612BE2522A0005C39D /* Info.plist */,
 			);
 			path = "RxSwift-Practice";
+			sourceTree = "<group>";
+		};
+		ABE630AD2BE3CD7B0000B755 /* Transforming Operators */ = {
+			isa = PBXGroup;
+			children = (
+				ABE630AE2BE3CDBF0000B755 /* toArray.playground */,
+				ABE630AF2BE3CE8B0000B755 /* map.playground */,
+				ABE630B02BE3CF160000B755 /* compactMap.playground */,
+				ABE630B12BE3CFF90000B755 /* flatMap.playground */,
+				ABE630B42BE3D9750000B755 /* concatMap.playground */,
+				ABE630B52BE3DA0E0000B755 /* scan.playground */,
+				ABE630B62BE3DAB50000B755 /* buffer.playground */,
+				ABE630B72BE3DBD30000B755 /* window.playground */,
+				ABE630B82BE3DD700000B755 /* groupBy.playground */,
+			);
+			path = "Transforming Operators";
 			sourceTree = "<group>";
 		};
 		D268DA304DA9EFDA3CB6EFF2 /* Frameworks */ = {
