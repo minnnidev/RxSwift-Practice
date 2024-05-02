@@ -47,6 +47,19 @@
 		AB1E435F2BE2522A0005C39D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB1E43612BE2522A0005C39D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB5D7F3F2BE2A38400AE8B51 /* filter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = filter.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AB5D7F402BE2A5F600AE8B51 /* skip.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = skip.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AB5D7F412BE2A68800AE8B51 /* skipUntil.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = skipUntil.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AB5D7F422BE2A75000AE8B51 /* skipWhile.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = skipWhile.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AB5D7F432BE2A85E00AE8B51 /* skipDurationScheduler.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = skipDurationScheduler.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AB5D7F442BE2A96A00AE8B51 /* take.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = take.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AB5D7F452BE2A9D400AE8B51 /* takeWhile.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = takeWhile.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AB5D7F462BE2AAB900AE8B51 /* takeUntil.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = takeUntil.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AB5D7F472BE2AC0E00AE8B51 /* takeLast.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = takeLast.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AB5D7F482BE2ACFF00AE8B51 /* takeForScheduler.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = takeForScheduler.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AB5D7F492BE2AD8F00AE8B51 /* single.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = single.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AB5D7F4A2BE2AECA00AE8B51 /* distinctUntilChanged.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = distinctUntilChanged.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AB5D7F6D2BE370C400AE8B51 /* throttle.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = throttle.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AB5D7F6E2BE370D500AE8B51 /* debounce.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = debounce.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		ABED50672BE2A0F2000135F0 /* elementAt.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = elementAt.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BBF3CD6F19F2085602BA5FBA /* Pods_RxSwift_Practice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwift_Practice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -126,6 +139,19 @@
 				AB10D4A82BE29A0400A6FCCD /* ignoreElements.playground */,
 				ABED50672BE2A0F2000135F0 /* elementAt.playground */,
 				AB5D7F3F2BE2A38400AE8B51 /* filter.playground */,
+				AB5D7F402BE2A5F600AE8B51 /* skip.playground */,
+				AB5D7F412BE2A68800AE8B51 /* skipUntil.playground */,
+				AB5D7F422BE2A75000AE8B51 /* skipWhile.playground */,
+				AB5D7F432BE2A85E00AE8B51 /* skipDurationScheduler.playground */,
+				AB5D7F442BE2A96A00AE8B51 /* take.playground */,
+				AB5D7F452BE2A9D400AE8B51 /* takeWhile.playground */,
+				AB5D7F462BE2AAB900AE8B51 /* takeUntil.playground */,
+				AB5D7F472BE2AC0E00AE8B51 /* takeLast.playground */,
+				AB5D7F482BE2ACFF00AE8B51 /* takeForScheduler.playground */,
+				AB5D7F492BE2AD8F00AE8B51 /* single.playground */,
+				AB5D7F4A2BE2AECA00AE8B51 /* distinctUntilChanged.playground */,
+				AB5D7F6D2BE370C400AE8B51 /* throttle.playground */,
+				AB5D7F6E2BE370D500AE8B51 /* debounce.playground */,
 			);
 			path = "Filtering Operators";
 			sourceTree = "<group>";
