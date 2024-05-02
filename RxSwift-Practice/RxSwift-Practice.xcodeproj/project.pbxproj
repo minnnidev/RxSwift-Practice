@@ -84,6 +84,8 @@
 		ABE630C82BE3F7C90000B755 /* timeout.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = timeout.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		ABE630C92BE3F7CF0000B755 /* delay.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = delay.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		ABE630CC2BE4016F0000B755 /* scheduler.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = scheduler.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		ABE630CE2BE405030000B755 /* catch.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = catch.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		ABE630CF2BE406040000B755 /* retry.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = retry.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		ABED50672BE2A0F2000135F0 /* elementAt.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = elementAt.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BBF3CD6F19F2085602BA5FBA /* Pods_RxSwift_Practice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwift_Practice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -191,6 +193,7 @@
 				AB0278282BE266B8003B20CF /* Subjects */,
 				AB02782E2BE28F43003B20CF /* Operators */,
 				ABE630CB2BE4015E0000B755 /* Scheduler */,
+				ABE630CD2BE404450000B755 /* ErrorHandling */,
 				AB1E43522BE252290005C39D /* RxSwift-Practice */,
 				AB1E43512BE252290005C39D /* Products */,
 				5996EE8056B4C2B4D677A84B /* Pods */,
@@ -277,6 +280,15 @@
 				ABE630CC2BE4016F0000B755 /* scheduler.playground */,
 			);
 			path = Scheduler;
+			sourceTree = "<group>";
+		};
+		ABE630CD2BE404450000B755 /* ErrorHandling */ = {
+			isa = PBXGroup;
+			children = (
+				ABE630CE2BE405030000B755 /* catch.playground */,
+				ABE630CF2BE406040000B755 /* retry.playground */,
+			);
+			path = ErrorHandling;
 			sourceTree = "<group>";
 		};
 		D268DA304DA9EFDA3CB6EFF2 /* Frameworks */ = {
