@@ -200,6 +200,7 @@
 				AB02782E2BE28F43003B20CF /* Operators */,
 				ABE630CB2BE4015E0000B755 /* Scheduler */,
 				ABE630CD2BE404450000B755 /* ErrorHandling */,
+				ABE630D22BE755E80000B755 /* RxCocoaBasics */,
 				AB1E43522BE252290005C39D /* RxSwift-Practice */,
 				AB1E43512BE252290005C39D /* Products */,
 				5996EE8056B4C2B4D677A84B /* Pods */,
@@ -218,7 +219,6 @@
 		AB1E43522BE252290005C39D /* RxSwift-Practice */ = {
 			isa = PBXGroup;
 			children = (
-				ABE630D22BE755E80000B755 /* RxCocoaBasics */,
 				AB1E43532BE252290005C39D /* AppDelegate.swift */,
 				AB1E43552BE252290005C39D /* SceneDelegate.swift */,
 				AB1E43572BE252290005C39D /* ViewController.swift */,
