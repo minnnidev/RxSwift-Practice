@@ -13,6 +13,8 @@
 		AB1E43582BE252290005C39D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1E43572BE252290005C39D /* ViewController.swift */; };
 		AB1E435D2BE2522A0005C39D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB1E435C2BE2522A0005C39D /* Assets.xcassets */; };
 		AB1E43602BE2522A0005C39D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB1E435E2BE2522A0005C39D /* LaunchScreen.storyboard */; };
+		AB20336D2BE92E6D0029D31E /* DriverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB20336C2BE92E6D0029D31E /* DriverView.swift */; };
+		AB20336F2BE92E780029D31E /* DriverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB20336E2BE92E780029D31E /* DriverViewController.swift */; };
 		ABE630D42BE7560E0000B755 /* ColorSliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE630D32BE7560E0000B755 /* ColorSliderViewController.swift */; };
 		ABE630D72BE756320000B755 /* ColorSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE630D62BE756320000B755 /* ColorSliderView.swift */; };
 /* End PBXBuildFile section */
@@ -45,6 +47,8 @@
 		AB1E435C2BE2522A0005C39D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB1E435F2BE2522A0005C39D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB1E43612BE2522A0005C39D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB20336C2BE92E6D0029D31E /* DriverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverView.swift; sourceTree = "<group>"; };
+		AB20336E2BE92E780029D31E /* DriverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverViewController.swift; sourceTree = "<group>"; };
 		AB5D7F3F2BE2A38400AE8B51 /* filter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = filter.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AB5D7F402BE2A5F600AE8B51 /* skip.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = skip.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AB5D7F412BE2A68800AE8B51 /* skipUntil.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = skipUntil.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -225,6 +229,15 @@
 			path = "RxSwift-Practice";
 			sourceTree = "<group>";
 		};
+		AB20336B2BE92E620029D31E /* Driver */ = {
+			isa = PBXGroup;
+			children = (
+				AB20336C2BE92E6D0029D31E /* DriverView.swift */,
+				AB20336E2BE92E780029D31E /* DriverViewController.swift */,
+			);
+			path = Driver;
+			sourceTree = "<group>";
+		};
 		ABE630AD2BE3CD7B0000B755 /* Transforming Operators */ = {
 			isa = PBXGroup;
 			children = (
@@ -296,6 +309,7 @@
 		ABE630D22BE755E80000B755 /* RxCocoaBasics */ = {
 			isa = PBXGroup;
 			children = (
+				AB20336B2BE92E620029D31E /* Driver */,
 				ABE630D52BE756140000B755 /* ControlPropertyControlEvent */,
 			);
 			path = RxCocoaBasics;
@@ -436,6 +450,8 @@
 				AB1E43582BE252290005C39D /* ViewController.swift in Sources */,
 				AB1E43542BE252290005C39D /* AppDelegate.swift in Sources */,
 				AB1E43562BE252290005C39D /* SceneDelegate.swift in Sources */,
+				AB20336D2BE92E6D0029D31E /* DriverView.swift in Sources */,
+				AB20336F2BE92E780029D31E /* DriverViewController.swift in Sources */,
 				ABE630D42BE7560E0000B755 /* ColorSliderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
