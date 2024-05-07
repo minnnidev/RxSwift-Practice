@@ -20,6 +20,8 @@
 		AB2033792BE93A370029D31E /* AppleProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2033782BE93A370029D31E /* AppleProducts.swift */; };
 		AB20337B2BE9CFDA0029D31E /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB20337A2BE9CFDA0029D31E /* ProductTableViewCell.swift */; };
 		AB4EE8C02BEA468D004D23F8 /* ColorControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4EE8BF2BEA468D004D23F8 /* ColorControlViewController.swift */; };
+		AB4EE8C42BEA4E6B004D23F8 /* BackgroundColorControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4EE8C32BEA4E6B004D23F8 /* BackgroundColorControlViewController.swift */; };
+		AB4EE8C72BEA5976004D23F8 /* TextFieldColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4EE8C62BEA5976004D23F8 /* TextFieldColorViewController.swift */; };
 		ABCFB0312BEA2045007814B1 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCFB0302BEA2045007814B1 /* Color.swift */; };
 		ABCFB0342BEA208D007814B1 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCFB0332BEA208D007814B1 /* AlertViewController.swift */; };
 		ABCFB0362BEA2099007814B1 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCFB0352BEA2099007814B1 /* AlertView.swift */; };
@@ -62,6 +64,8 @@
 		AB2033782BE93A370029D31E /* AppleProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleProducts.swift; sourceTree = "<group>"; };
 		AB20337A2BE9CFDA0029D31E /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
 		AB4EE8BF2BEA468D004D23F8 /* ColorControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorControlViewController.swift; sourceTree = "<group>"; };
+		AB4EE8C32BEA4E6B004D23F8 /* BackgroundColorControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundColorControlViewController.swift; sourceTree = "<group>"; };
+		AB4EE8C62BEA5976004D23F8 /* TextFieldColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldColorViewController.swift; sourceTree = "<group>"; };
 		AB5D7F3F2BE2A38400AE8B51 /* filter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = filter.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AB5D7F402BE2A5F600AE8B51 /* skip.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = skip.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AB5D7F412BE2A68800AE8B51 /* skipUntil.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = skipUntil.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -289,6 +293,8 @@
 			isa = PBXGroup;
 			children = (
 				AB4EE8C12BEA4E2D004D23F8 /* CustomBinder */,
+				AB4EE8C22BEA4E40004D23F8 /* CustomControlProperty */,
+				AB4EE8C52BEA5959004D23F8 /* CustonControlEvent */,
 			);
 			path = CustomExtension;
 			sourceTree = "<group>";
@@ -299,6 +305,22 @@
 				AB4EE8BF2BEA468D004D23F8 /* ColorControlViewController.swift */,
 			);
 			path = CustomBinder;
+			sourceTree = "<group>";
+		};
+		AB4EE8C22BEA4E40004D23F8 /* CustomControlProperty */ = {
+			isa = PBXGroup;
+			children = (
+				AB4EE8C32BEA4E6B004D23F8 /* BackgroundColorControlViewController.swift */,
+			);
+			path = CustomControlProperty;
+			sourceTree = "<group>";
+		};
+		AB4EE8C52BEA5959004D23F8 /* CustonControlEvent */ = {
+			isa = PBXGroup;
+			children = (
+				AB4EE8C62BEA5976004D23F8 /* TextFieldColorViewController.swift */,
+			);
+			path = CustonControlEvent;
 			sourceTree = "<group>";
 		};
 		ABCFB0322BEA2073007814B1 /* AlertController */ = {
@@ -522,6 +544,7 @@
 				AB2033732BE938F60029D31E /* RxTableView.swift in Sources */,
 				AB1E43582BE252290005C39D /* ViewController.swift in Sources */,
 				AB2033752BE939010029D31E /* RxTableViewController.swift in Sources */,
+				AB4EE8C42BEA4E6B004D23F8 /* BackgroundColorControlViewController.swift in Sources */,
 				AB1E43542BE252290005C39D /* AppDelegate.swift in Sources */,
 				AB4EE8C02BEA468D004D23F8 /* ColorControlViewController.swift in Sources */,
 				ABCFB0312BEA2045007814B1 /* Color.swift in Sources */,
@@ -532,6 +555,7 @@
 				AB20336D2BE92E6D0029D31E /* DriverView.swift in Sources */,
 				AB20336F2BE92E780029D31E /* DriverViewController.swift in Sources */,
 				ABCFB0342BEA208D007814B1 /* AlertViewController.swift in Sources */,
+				AB4EE8C72BEA5976004D23F8 /* TextFieldColorViewController.swift in Sources */,
 				ABE630D42BE7560E0000B755 /* ColorSliderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
