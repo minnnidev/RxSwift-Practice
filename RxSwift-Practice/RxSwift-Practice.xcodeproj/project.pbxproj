@@ -15,6 +15,10 @@
 		AB1E43602BE2522A0005C39D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB1E435E2BE2522A0005C39D /* LaunchScreen.storyboard */; };
 		AB20336D2BE92E6D0029D31E /* DriverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB20336C2BE92E6D0029D31E /* DriverView.swift */; };
 		AB20336F2BE92E780029D31E /* DriverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB20336E2BE92E780029D31E /* DriverViewController.swift */; };
+		AB2033732BE938F60029D31E /* RxTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2033722BE938F60029D31E /* RxTableView.swift */; };
+		AB2033752BE939010029D31E /* RxTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2033742BE939010029D31E /* RxTableViewController.swift */; };
+		AB2033792BE93A370029D31E /* AppleProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2033782BE93A370029D31E /* AppleProducts.swift */; };
+		AB20337B2BE9CFDA0029D31E /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB20337A2BE9CFDA0029D31E /* ProductTableViewCell.swift */; };
 		ABE630D42BE7560E0000B755 /* ColorSliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE630D32BE7560E0000B755 /* ColorSliderViewController.swift */; };
 		ABE630D72BE756320000B755 /* ColorSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE630D62BE756320000B755 /* ColorSliderView.swift */; };
 /* End PBXBuildFile section */
@@ -49,6 +53,10 @@
 		AB1E43612BE2522A0005C39D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB20336C2BE92E6D0029D31E /* DriverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverView.swift; sourceTree = "<group>"; };
 		AB20336E2BE92E780029D31E /* DriverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverViewController.swift; sourceTree = "<group>"; };
+		AB2033722BE938F60029D31E /* RxTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxTableView.swift; sourceTree = "<group>"; };
+		AB2033742BE939010029D31E /* RxTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxTableViewController.swift; sourceTree = "<group>"; };
+		AB2033782BE93A370029D31E /* AppleProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleProducts.swift; sourceTree = "<group>"; };
+		AB20337A2BE9CFDA0029D31E /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
 		AB5D7F3F2BE2A38400AE8B51 /* filter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = filter.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AB5D7F402BE2A5F600AE8B51 /* skip.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = skip.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AB5D7F412BE2A68800AE8B51 /* skipUntil.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = skipUntil.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -195,12 +203,14 @@
 		AB1E43472BE252290005C39D = {
 			isa = PBXGroup;
 			children = (
+				AB2033772BE93A2E0029D31E /* Common */,
 				AB0278242BE25363003B20CF /* Concepts */,
 				AB0278282BE266B8003B20CF /* Subjects */,
 				AB02782E2BE28F43003B20CF /* Operators */,
 				ABE630CB2BE4015E0000B755 /* Scheduler */,
 				ABE630CD2BE404450000B755 /* ErrorHandling */,
 				ABE630D22BE755E80000B755 /* RxCocoaBasics */,
+				AB2033702BE938D10029D31E /* RxCocoaCommonPatterns */,
 				AB1E43522BE252290005C39D /* RxSwift-Practice */,
 				AB1E43512BE252290005C39D /* Products */,
 				5996EE8056B4C2B4D677A84B /* Pods */,
@@ -236,6 +246,32 @@
 				AB20336E2BE92E780029D31E /* DriverViewController.swift */,
 			);
 			path = Driver;
+			sourceTree = "<group>";
+		};
+		AB2033702BE938D10029D31E /* RxCocoaCommonPatterns */ = {
+			isa = PBXGroup;
+			children = (
+				AB2033712BE938E60029D31E /* TableView */,
+			);
+			path = RxCocoaCommonPatterns;
+			sourceTree = "<group>";
+		};
+		AB2033712BE938E60029D31E /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				AB2033722BE938F60029D31E /* RxTableView.swift */,
+				AB2033742BE939010029D31E /* RxTableViewController.swift */,
+				AB20337A2BE9CFDA0029D31E /* ProductTableViewCell.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		AB2033772BE93A2E0029D31E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				AB2033782BE93A370029D31E /* AppleProducts.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		ABE630AD2BE3CD7B0000B755 /* Transforming Operators */ = {
@@ -447,9 +483,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABE630D72BE756320000B755 /* ColorSliderView.swift in Sources */,
+				AB2033732BE938F60029D31E /* RxTableView.swift in Sources */,
 				AB1E43582BE252290005C39D /* ViewController.swift in Sources */,
+				AB2033752BE939010029D31E /* RxTableViewController.swift in Sources */,
 				AB1E43542BE252290005C39D /* AppDelegate.swift in Sources */,
+				AB2033792BE93A370029D31E /* AppleProducts.swift in Sources */,
 				AB1E43562BE252290005C39D /* SceneDelegate.swift in Sources */,
+				AB20337B2BE9CFDA0029D31E /* ProductTableViewCell.swift in Sources */,
 				AB20336D2BE92E6D0029D31E /* DriverView.swift in Sources */,
 				AB20336F2BE92E780029D31E /* DriverViewController.swift in Sources */,
 				ABE630D42BE7560E0000B755 /* ColorSliderViewController.swift in Sources */,
