@@ -21,7 +21,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let window = UIWindow(windowScene: windowScene)
         window.overrideUserInterfaceStyle = UIUserInterfaceStyle.light
 
-        let rootVC = ViewController()
+        let rootVC = MemoListViewController()
 
         window.rootViewController = rootVC
         window.makeKeyAndVisible()
