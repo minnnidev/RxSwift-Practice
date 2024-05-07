@@ -19,6 +19,7 @@
 		AB2033752BE939010029D31E /* RxTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2033742BE939010029D31E /* RxTableViewController.swift */; };
 		AB2033792BE93A370029D31E /* AppleProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2033782BE93A370029D31E /* AppleProducts.swift */; };
 		AB20337B2BE9CFDA0029D31E /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB20337A2BE9CFDA0029D31E /* ProductTableViewCell.swift */; };
+		AB4EE8C02BEA468D004D23F8 /* ColorControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4EE8BF2BEA468D004D23F8 /* ColorControlViewController.swift */; };
 		ABCFB0312BEA2045007814B1 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCFB0302BEA2045007814B1 /* Color.swift */; };
 		ABCFB0342BEA208D007814B1 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCFB0332BEA208D007814B1 /* AlertViewController.swift */; };
 		ABCFB0362BEA2099007814B1 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCFB0352BEA2099007814B1 /* AlertView.swift */; };
@@ -60,6 +61,7 @@
 		AB2033742BE939010029D31E /* RxTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxTableViewController.swift; sourceTree = "<group>"; };
 		AB2033782BE93A370029D31E /* AppleProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleProducts.swift; sourceTree = "<group>"; };
 		AB20337A2BE9CFDA0029D31E /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		AB4EE8BF2BEA468D004D23F8 /* ColorControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorControlViewController.swift; sourceTree = "<group>"; };
 		AB5D7F3F2BE2A38400AE8B51 /* filter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = filter.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AB5D7F402BE2A5F600AE8B51 /* skip.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = skip.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AB5D7F412BE2A68800AE8B51 /* skipUntil.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = skipUntil.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -217,6 +219,7 @@
 				ABE630CD2BE404450000B755 /* ErrorHandling */,
 				ABE630D22BE755E80000B755 /* RxCocoaBasics */,
 				AB2033702BE938D10029D31E /* RxCocoaCommonPatterns */,
+				AB4EE8BE2BEA466F004D23F8 /* CustomExtension */,
 				AB1E43522BE252290005C39D /* RxSwift-Practice */,
 				AB1E43512BE252290005C39D /* Products */,
 				5996EE8056B4C2B4D677A84B /* Pods */,
@@ -280,6 +283,14 @@
 				ABCFB0302BEA2045007814B1 /* Color.swift */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		AB4EE8BE2BEA466F004D23F8 /* CustomExtension */ = {
+			isa = PBXGroup;
+			children = (
+				AB4EE8BF2BEA468D004D23F8 /* ColorControlViewController.swift */,
+			);
+			path = CustomExtension;
 			sourceTree = "<group>";
 		};
 		ABCFB0322BEA2073007814B1 /* AlertController */ = {
@@ -504,6 +515,7 @@
 				AB1E43582BE252290005C39D /* ViewController.swift in Sources */,
 				AB2033752BE939010029D31E /* RxTableViewController.swift in Sources */,
 				AB1E43542BE252290005C39D /* AppDelegate.swift in Sources */,
+				AB4EE8C02BEA468D004D23F8 /* ColorControlViewController.swift in Sources */,
 				ABCFB0312BEA2045007814B1 /* Color.swift in Sources */,
 				AB2033792BE93A370029D31E /* AppleProducts.swift in Sources */,
 				AB1E43562BE252290005C39D /* SceneDelegate.swift in Sources */,
