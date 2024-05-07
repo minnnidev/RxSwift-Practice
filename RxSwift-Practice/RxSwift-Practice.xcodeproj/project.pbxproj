@@ -288,9 +288,17 @@
 		AB4EE8BE2BEA466F004D23F8 /* CustomExtension */ = {
 			isa = PBXGroup;
 			children = (
-				AB4EE8BF2BEA468D004D23F8 /* ColorControlViewController.swift */,
+				AB4EE8C12BEA4E2D004D23F8 /* CustomBinder */,
 			);
 			path = CustomExtension;
+			sourceTree = "<group>";
+		};
+		AB4EE8C12BEA4E2D004D23F8 /* CustomBinder */ = {
+			isa = PBXGroup;
+			children = (
+				AB4EE8BF2BEA468D004D23F8 /* ColorControlViewController.swift */,
+			);
+			path = CustomBinder;
 			sourceTree = "<group>";
 		};
 		ABCFB0322BEA2073007814B1 /* AlertController */ = {
