@@ -13,7 +13,7 @@ import NSObject_Rx
 
 class MemoDetailViewModel: BaseViewModel {
 
-    let memo: Memo
+    var memo: Memo
 
     private var formatter: DateFormatter = {
         let f = DateFormatter()
