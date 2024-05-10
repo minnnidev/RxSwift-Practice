@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  RxMemo
 //
-//  Created by 김민 on 5/7/24.
+//  Created by 김민 on 5/8/24.
 //
 
 import UIKit
@@ -16,16 +16,16 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let windowScene = (scene as? UIWindowScene) else { return }
+        guard let _ = (scene as? UIWindowScene) else { return }
 
-        let window = UIWindow(windowScene: windowScene)
-        window.overrideUserInterfaceStyle = UIUserInterfaceStyle.light
+        let storage = MemoStorage()
+        let coordinator = SceneCoordinator(window: window!)
 
-        let rootVC = MemoListViewController()
-
-        window.rootViewController = rootVC
-        window.makeKeyAndVisible()
-        self.window = window
+        let listViewModel = MemoListViewModel(title: "나의 메모",
+                                              sceneCoordinator: coordinator,
+                                              storage: storage)
+        let listScene = Scene.list(listViewModel)
+        coordinator.transition(to: listScene, using: .root, animated: false)
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
@@ -56,7 +56,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // to restore the scene back to its current state.
 
         // Save changes in the application's managed object context when the application transitions to the background.
-        (UIApplication.shared.delegate as? AppDelegate)?.saveContext()
+       
     }
 
 
