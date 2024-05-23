@@ -32,6 +32,11 @@
 /* Begin PBXFileReference section */
 		95896CB1CBB6576DCA35878C /* Pods-RxSwift-Practice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift-Practice.debug.xcconfig"; path = "Target Support Files/Pods-RxSwift-Practice/Pods-RxSwift-Practice.debug.xcconfig"; sourceTree = "<group>"; };
 		A49AC7C93E42FA2CB884B672 /* Pods-RxSwift-Practice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift-Practice.release.xcconfig"; path = "Target Support Files/Pods-RxSwift-Practice/Pods-RxSwift-Practice.release.xcconfig"; sourceTree = "<group>"; };
+		AB003E892BFF8D8300A163E8 /* multicast.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = multicast.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AB003E8A2BFF8F3000A163E8 /* Publish.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Publish.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AB003E8B2BFF8FAE00A163E8 /* replay.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = replay.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AB003E8C2BFF90B900A163E8 /* refCount.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = refCount.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AB003E8D2BFF937A00A163E8 /* share.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = share.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AB0278252BE25377003B20CF /* Observable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Observable.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AB0278262BE258F1003B20CF /* Infallible.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Infallible.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AB0278292BE26848003B20CF /* PublishSubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PublishSubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -137,6 +142,18 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		AB003E882BFF8B9100A163E8 /* SharingSubscription */ = {
+			isa = PBXGroup;
+			children = (
+				AB003E892BFF8D8300A163E8 /* multicast.playground */,
+				AB003E8A2BFF8F3000A163E8 /* Publish.playground */,
+				AB003E8B2BFF8FAE00A163E8 /* replay.playground */,
+				AB003E8C2BFF90B900A163E8 /* refCount.playground */,
+				AB003E8D2BFF937A00A163E8 /* share.playground */,
+			);
+			path = SharingSubscription;
+			sourceTree = "<group>";
+		};
 		AB0278242BE25363003B20CF /* Concepts */ = {
 			isa = PBXGroup;
 			children = (
@@ -220,6 +237,7 @@
 				AB0278282BE266B8003B20CF /* Subjects */,
 				AB02782E2BE28F43003B20CF /* Operators */,
 				ABE630CB2BE4015E0000B755 /* Scheduler */,
+				AB003E882BFF8B9100A163E8 /* SharingSubscription */,
 				ABE630CD2BE404450000B755 /* ErrorHandling */,
 				ABE630D22BE755E80000B755 /* RxCocoaBasics */,
 				AB2033702BE938D10029D31E /* RxCocoaCommonPatterns */,
